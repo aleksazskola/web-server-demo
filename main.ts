@@ -1,8 +1,8 @@
 radio.onReceivedString(function (receivedString) {
-    if (receivedString == "AAB") {
+    if (receivedString == "A") {
         radio.sendString("mystery")
         basic.showIcon(IconNames.Yes)
-    } else if (receivedString == "ABB") {
+    } else if (receivedString == "B") {
         radio.sendString("paris")
         basic.showIcon(IconNames.Yes)
     }
